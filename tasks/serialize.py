@@ -5,6 +5,6 @@ from rest_framework import serializers
 class TasksSerializer(serializers.ModelSerializer):
     class Meta:
         model = Tasks
-        fields = '__all__'
+        fields = ['taskText', 'taskStatus']
 
 
