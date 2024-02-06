@@ -8,5 +8,12 @@
       <jdbc-url>jdbc:postgresql://localhost:5432/toDo</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="postgres@aws-0-eu-central-1.pooler.supabase.com" uuid="1455e8b4-a47f-4490-a0d8-3c1be664c707">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://aws-0-eu-central-1.pooler.supabase.com:5432/postgres</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
