@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'simpleToDo.wsgi.application'
 
 DATABASES = {
     "default": {
-        "ENGINE": os.environ['ENGINE'],
+        "ENGINE": "django.db.backends.postgresql",
         'NAME': os.environ['NAME'],
         'USER': os.environ['USER'],
         'PASSWORD': os.environ['PASSWORD'],
