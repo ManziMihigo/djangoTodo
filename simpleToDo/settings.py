@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ALLOWED_ORIGINS = ["https://todo-7hftfwu60-jonathans-projects-3105b8d9.vercel.app"]
+CORS_ALLOWED_ORIGINS = ["https://todo-jonathans-projects-3105b8d9.vercel.app"]
 
 ROOT_URLCONF = 'simpleToDo.urls'
 
